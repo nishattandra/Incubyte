@@ -1,0 +1,26 @@
+.ready img{
+    width: 100%;
+}
+
+.readyDetails{
+    margin-top: -220px;
+    text-align: center;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 600px){
+    .ready img{
+        height: 300px; 
+    }
+
+    .readyDetails{
+        margin-top: -250px;
+    }
+}

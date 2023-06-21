@@ -6,6 +6,7 @@ import Banner from './components/Banner/Banner';
 import About from './components/About/About';
 import Expertise from './components/Expertise/Expertise';
 import Success from './components/Success/Success';
+import Ready from './components/Ready/Ready';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <About></About>
       <Expertise></Expertise>
       <Success></Success>
+      <Ready></Ready>
     </>
   )
 }
