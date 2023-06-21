@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Expertise from './components/Expertise/Expertise';
 import Success from './components/Success/Success';
 import Ready from './components/Ready/Ready';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Expertise></Expertise>
       <Success></Success>
       <Ready></Ready>
+      <Footer></Footer>
     </>
   )
 }
