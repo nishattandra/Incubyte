@@ -24,8 +24,8 @@ const Banner = () => {
                 </Card.ImgOverlay>
             </Card>
             <img src={img1} className='ellipse1' alt="" />
-                <img src={img2} className='ellipse2 ' alt="" />
-                <img src={img3} className='ellipse3 ' alt="" />
+            <img src={img2} className='ellipse2 ' alt="" />
+            <img src={img3} className='ellipse3 ' alt="" />
         </div>
     );
 };
