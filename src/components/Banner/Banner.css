@@ -1,0 +1,50 @@
+.banner {
+}
+
+.img {
+  height: 100vh;
+  width: 100%;
+}
+
+.img2{
+    margin-top: -100px;
+}
+
+.ellipse1 {
+  border: none;
+  border-radius: 8px;
+  transform: translate(-40%, -65%);
+}
+
+.ellipse2 {
+  /* position: fixed; */
+  border: none;
+  border-radius: 8px;
+  transform: translate(543%, -120%);
+}
+
+.ellipse3 {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  transform: translate(-70%, -965%);
+}
+
+@media only screen and (max-width: 600px) {
+    .img2{
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+  .ellipse2 {
+    transform: translate(100%, -230%);
+  }
+
+  .ellipse3 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    transform: translate(10%, -3639%);
+  }
+}

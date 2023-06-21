@@ -1,0 +1,25 @@
+.about {
+  margin-top: -600px;
+}
+
+.aboutImg {
+  height: 250px;
+  position: absolute;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.aboutDetails{
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    .about{
+        margin-top: -1200px;
+    }
+
+    .aboutDetails{
+        padding: 10px;
+        font-size: small;
+    }
+}
